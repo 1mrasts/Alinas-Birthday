@@ -13,12 +13,17 @@ body {
 	padding: 15px 0 50px;
 	background-color: $color-bg;
 }
-
-.wrapper {
+.header-wrapper {
 	display: flex;
 	align-items: center;
 	width: 100%;
 	padding: 0 10px;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 0 10px 50px;
 }
 
 section {
@@ -33,4 +38,10 @@ section {
 	border-radius: 10px;
 	background-color: $color-card;
 	text-align: center;
+}
+.reverse {
+	flex-direction: row-reverse !important;
+	img {
+		box-shadow: none !important;
+	}
 }
