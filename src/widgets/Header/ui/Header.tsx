@@ -3,7 +3,7 @@ import s from './Header.module.scss'
 
 export const Header = () => {
 	return (
-		<header className='wrapper'>
+		<header className='header-wrapper'>
 			<div className={s.container}>
 				<nav>
 					<Link to='/about-me'>Обо мне</Link>
