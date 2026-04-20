@@ -1,2 +1,36 @@
 @use 'zeroing';
 @use 'fonts';
+
+$color-bg: #ffd1d5;
+$color-card: #faffc7;
+$spacing-md: 20px;
+
+html {
+	overflow-x: clip;
+}
+body {
+	overflow-x: clip;
+	padding: 15px 0 50px;
+	background-color: $color-bg;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 0 10px;
+}
+
+section {
+	margin-top: $spacing-md;
+	display: flex;
+	flex-direction: column;
+}
+
+.text__block {
+	width: 100%;
+	padding: 10px 5px;
+	border-radius: 10px;
+	background-color: $color-card;
+	text-align: center;
+}
