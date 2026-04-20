@@ -1,0 +1,24 @@
+.childhood {
+	gap: 20px;
+
+	&__description {
+		display: flex;
+		justify-content: space-between;
+
+		&-text {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			gap: 10px;
+
+			p {
+				font-size: 12px;
+			}
+		}
+	}
+
+	h4 {
+		text-align: center;
+	}
+}
