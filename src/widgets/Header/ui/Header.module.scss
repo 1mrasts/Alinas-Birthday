@@ -1,2 +1,13 @@
-.header {
+.container {
+	display: flex;
+	width: 100%;
+	padding: 10px 0;
+	background-color: #faffc7;
+	border-radius: 10px;
+
+	nav {
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+	}
 }
